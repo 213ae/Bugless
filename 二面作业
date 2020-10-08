@@ -46,7 +46,7 @@
 		<div style="height:1080px ; width:auto ; background-color:#121117 ; float:none">
 			<svg width="400px" height="400px" style="left: 980px; position: absolute; top: 300px"><circle width:314px;height:314px; cx="157" cy="157" r="157" fill="#C97640"/> </svg>
 			<span style="left: 140px; position: absolute; top: 70px;font-size:80px;color:#ffffff;font-family:"Raleway"">Hey,</span>
-			<button style="left:220px;position:absolute;top:850px;height:80px;width:300px">JOIN US!</button>
+			<button style="left:220px;position:absolute;top:850px;height:80px;width:300px"><span style="top:26px;position:absolute;left:85px;letter-spacing: 4px;color:#000000;font-size:24px">JOIN US!</span></button>
 			<span style="left:500px;position: absolute;top:420px;font-size:80px;color:#ffffff;font-family:"Raleway"">
 				We Are&nbsp <i>QSCTech >w<</i>
 			</span>
