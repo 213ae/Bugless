@@ -27,16 +27,16 @@
 		  position:absolute;
 		  left:144px;
 		  top:55px;
-		   }	
+		   }
 		@font-face {
 		font-family:DIN; 
-		src: url(‘https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/DIN-Light.otf’); 
-		src: url(‘https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/DIN-Medium.otf’);
+		src:https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/DIN-Light.otf; 
+		src:https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/DIN-Medium.otf;
 		}
 		@font-face {
 		font-family:Raleway; 
-		src: url(‘https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/Raleway-Medium.ttf’); 
-		src: url(‘https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/Raleway-Thin.ttf’);
+		src:https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/Raleway-Medium.ttf; 
+		src:https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/Raleway-Thin.ttf;
 		}
 		</style>
 	</head>
@@ -45,9 +45,9 @@
 		<!-顶部布局->
 		<div style="height:1080px ; width:auto ; background-color:#121117 ; float:none">
 			<svg width="400px" height="400px" style="left: 980px; position: absolute; top: 300px"><circle width:314px;height:314px; cx="157" cy="157" r="157" fill="#C97640"/> </svg>
-			<span style="left: 140px; position: absolute; top: 70px;font-size:80px;color:#ffffff;font-family:"Raleway"">Hey,</span>
-			<button style="left:220px;position:absolute;top:850px;height:80px;width:300px"><span style="top:26px;position:absolute;left:85px;letter-spacing: 4px;color:#000000;font-size:24px">JOIN US!</span></button>
-			<span style="left:500px;position: absolute;top:420px;font-size:80px;color:#ffffff;font-family:"Raleway"">
+			<span style="left: 140px; position: absolute; top: 70px;font-size:80px;color:#ffffff;font-family:Raleway">Hey,</span>
+			<button style="left:140px;position:absolute;top:850px;height:80px;width:300px;font-family:DIN"><span style="top:26px;position:absolute;left:85px;letter-spacing: 4px;color:#000000;font-size:24px;font-family:"DIN"">JOIN US!</span></button>
+			<span style="left:500px;position:absolute;top:420px;font-size:80px;color:#ffffff;font-family:Raleway">
 				We Are&nbsp <i>QSCTech >w<</i>
 			</span>
 			<img src="https://raw.githubusercontent.com/QSCTech/2020-Autumn-Round-Two/5ebffc203d575a9a8c43cdf62944701b76244fd0/problem-set-2/resource/qsc-logo-white.svg" ; style="height:40px ; width:120px" ; id="logo" />
@@ -57,14 +57,14 @@
 
 		<!-底部布局->
 		<div style="height:540px ; width:auto ; background-color:#FAE2D0 ; float:none">
-			<div style="left:780px;position: absolute;top:1120px;height:34px ; width:384px ; background-color:#000000;text-align: center";id="D">
+			<div style="left:780px;position: absolute;top:1150px;height:34px ; width:384px ; background-color:#000000;text-align: center;border:white 1px solid">
 				<span style="font-size:24px;color:#ffffff"><b>OUR PRODUCTS</b></span>
 			</div>
-			<span style="left:436px;position: absolute;top:1379px;font-size:40px;color:#000000;font-family:"Raleway""><b>Box</b></span>
-			<span style="left:896px;position: absolute;top:1379px;font-size:40px;color:#000000;font-family:"Raleway""><b>Mobile</b></span>
-			<span style="left:1380px;position: absolute;top:1379px;font-size:40px;color:#000000;font-family:"Raleway""><b>Enroll</b></span>
-			<span style="left:680px;position: absolute;top:1466px;font-size:20px;color:#ff0000;font-family:"Raleway""><i>*:Mobile For Android正在维护中,对您造成的不便请您谅解~</i></span>
-			<span style="left:860px;position: absolute;top:1516px;font-size:44px;color:#000000;font-family:"Raleway"">And More..</span>
+			<span style="left:445px;position: absolute;top:1379px;font-size:40px;color:#000000;font-family:Raleway"><b>Box</b></span>
+			<span style="left:896px;position: absolute;top:1379px;font-size:40px;color:#000000;font-family:Raleway"><b>Mobile</b></span>
+			<span style="left:1380px;position: absolute;top:1379px;font-size:40px;color:#000000;font-family:Raleway"><b>Enroll</b></span>
+			<span style="left:680px;position: absolute;top:1466px;font-size:20px;color:#ff0000"><i>*:Mobile For Android正在维护中,对您造成的不便请您谅解~</i></span>
+			<span style="left:860px;position: absolute;top:1516px;font-size:44px;color:#000000;font-family:Raleway">And More..</span>
 			<img src="https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/box.png?raw=true" ; style="height:128px ; width:128px" ; id="A" />
 			<img src="https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/mobile.png?raw=true" ; style="height:128px ; width:128px" ; id="B" />
 			<img src="https://github.com/QSCTech/2020-Autumn-Round-Two/blob/master/problem-set-2/resource/enroll.png?raw=true" ; style="height:128px ; width:128px" ; id="C" />
